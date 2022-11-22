@@ -1,5 +1,5 @@
 {% set name = "svg.py" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/svg.py-{{ version }}.tar.gz
-  sha256: f91979738229768a9de33082fc8ec8aba6dbd4906d03f4af9de488d970aa8904
+  sha256: 62a891d97a7a93c6282858add00b22425a3a2df77b2b6569b23423e180a751dc
 
 build:
   noarch: python

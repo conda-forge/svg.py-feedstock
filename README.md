@@ -1,11 +1,11 @@
-About svg.py
-============
+About svg.py-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/svg.py-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/orsinium-labs/svg
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/svg.py-feedstock/blob/main/LICENSE.txt)
 
 Summary: SVG drawing library
 

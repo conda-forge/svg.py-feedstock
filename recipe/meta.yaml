@@ -1,18 +1,17 @@
-{% set name = "svg.py" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 package:
-  name: {{ name|lower }}
+  name: svg.py
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/svg.py-{{ version }}.tar.gz
-  sha256: 39911b9c77677fd00d7e268b2c37be17ef9c1562575c8c9d30a5849097dfb184
+  url: https://pypi.io/packages/source/s/svg.py/svg_py-{{ version }}.tar.gz
+  sha256: d03d87549fb12e1ddcf367420fc196703d725e50b81c44ec2388e0530fc8bab3
 
 build:
-  noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
   number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
@@ -21,7 +20,6 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
-    - typing_extensions
 
 test:
   imports:

@@ -1,4 +1,4 @@
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: svg.py
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/svg.py/svg_py-{{ version }}.tar.gz
-  sha256: 18d7f82cf05ce6bff908ba6056bc0d0dca74a3fca3c119aa18fc058af88e5678
+  sha256: 4bcafb4dc20de27449fc868ba046dacab104573c4d6e07947bf744131bcb4968
 
 build:
   number: 0

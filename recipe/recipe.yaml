@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.9.1"
+  version: "1.9.2"
 
 package:
   name: svg.py
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/svg.py/svg_py-${{ version }}.tar.gz
-  sha256: 8702c5b952d58edccff0df9aa28e29bdc521cd8b1c175aaceeb1a3d10817b77c
+  sha256: 22b9881c580f55bf9d02e1a2c2d65ed05ed7d8a7d5467e847c5e1197ae0e3a9f
 
 build:
   number: 0
